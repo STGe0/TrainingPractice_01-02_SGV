@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "k81TEk0oyL1eWvHrv93MqkxJrJaPLBCfha4qzHOUvKR4l/uQZB9DccoS+Qb1JXXM6mrh2xs+bGLn2paYgA92zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gogog\\Desktop\\УП.01 Учебная практика Стешкин Г.В. группа ИП - 19 - 3\\УП.01 Учебная практика Стешкин Г.В. группа ИП - 19 - 3\\TrainingPractice_01\\SGV_Task_7\\SGV_Task_7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gogog\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\gogog\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\gogog\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\gogog\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
