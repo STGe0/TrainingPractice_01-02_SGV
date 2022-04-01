@@ -7,8 +7,7 @@ namespace Игра_на_внимательность_51
         DateTime date;
         public int number = 0;
         public int zakr = 0;
-        string str = "";
-        DateTime stopWatch = new DateTime();
+
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +40,7 @@ namespace Игра_на_внимательность_51
         private void timer1_Tick(object sender, EventArgs e)
         {
             long tick = DateTime.Now.Ticks - date.Ticks;
+            DateTime stopWatch = new DateTime();
 
             stopWatch = stopWatch.AddTicks(tick);
             toolStripLabel5.Text = String.Format("{0:HH:mm:ss:ff}", stopWatch);
@@ -1311,9 +1311,8 @@ namespace Игра_на_внимательность_51
                 number = 51;
                 toolStripLabel6.Text = "";
                 toolStripLabel7.Text = "";
-                str = String.Format("{0:HH:mm:ss:ff}", stopWatch);
                 timer1.Stop();
-                MessageBox.Show("Поздравляем, вы прошли игру за" + str + "минуты");
+                MessageBox.Show("Поздравляем, вы прошли игру");
                 toolStripLabel5.Text = "00:00:00:00";
                 number = 0;
                 but_stop();
@@ -1328,6 +1327,7 @@ namespace Игра_на_внимательность_51
                     toolStripLabel6.Text = "";
                     toolStripLabel7.Text = "";
                     timer1.Stop();
+                    MessageBox.Show("Поздравляем, вы прошли игру");
                     toolStripLabel5.Text = "00:00:00:00";
                     number = 0;
                     but_stop();
